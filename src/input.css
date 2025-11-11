@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 @theme{
     /* colors */
@@ -15,7 +16,13 @@
         /* background */
         --color-flex-gray-bg: #F7F8F9;
 
+        /* border input */
+        --color-flex-gray-input: #D5DAE1;
+
+        /* hover / focus - input */
+        --color-flex-gray-hover: #8F9AAD;
 
     /* fonts */
         --font-jost: "jost",;
+        --font-nunito: "Nunito Sans",;
 }

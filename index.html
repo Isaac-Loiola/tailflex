@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TailFlex</title>
     <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="image/icon-logo.svg">
 </head>
-<body class="bg-flex-gray-bg    ">
+<body class="bg-flex-gray-bg">
     <header class="w-full flex py-5 justify-between px-20">
         <section>
             <img src="/image/full-logo.svg" alt="logo tailflex" class="w-40">
@@ -34,10 +35,72 @@
             <a href="#" class="font-jost font-medium text-flex-gray-paragraph px-3 pt-1 rounded-md">
                 Login
             </a>
-            <a href="#" class="font-jost font-medium px-3 pt-1 rounded-md  bg-flex-green text-white duration-300 hover:scale-102">
+            <a href="#" class="font-jost font-medium px-3 pt-1 rounded-md  bg-flex-green text-white duration-200 hover:scale-102">
                 Cadastre-se
             </a>
         </section>
     </header>
+    <main>
+        <div class="px-70 flex justify-between py-20 items-center">
+            <div class="flex flex-col w-3/5">
+                <h1 class="text-flex-gray-title font-bold text-4xl mb-4">
+                   Apenas para uma <br>
+                    pequena empresa, <br>
+                   uma grande ferramenta.
+                </h1>
+                <p class="text-md text-flex-gray-paragraph font-semibold mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, fugiat.
+                </p>
+                <ul class="list-disc marker:text-flex-green pl-5 font-medium text-flex-gray-paragraph">
+                    <li>Mais estabilidade nos negócios</li>
+                    <li>Escalabilidade no seu negócio</li>
+                    <li>Alta visibilidade para seus serviços</li>
+
+                </ul>
+            </div>
+            <div class="rounded-lg bg-white flex flex-col items-center w-2/5 py-5 pt-15 relative shadow-lg">
+                <img src="/image/icon-logo-white.svg" alt="" class="w-15 bg-flex-green p-2 rounded-md absolute -top-8">
+
+                <h2 class="text-2xl font-bold mb-2">Entre na nossa comunidade</h2>
+                <p class="text-flex-gray-paragraph font-semibold mb-10">Comece essa jornada agora!</p>
+                <div class="w-6/9">
+                    <form action="index.html" method="post" class="w-full">
+                        <div class="mb-3">
+                            <label for="email" class="text-flex-gray-title font-semibold text-lg">
+                                Email
+                            </label>
+                            <input type="text" placeholder="Insera seu email" class="w-full border-2 rounded-md font-jost text-flex-gray-paragraph font-medium text-md border-flex-gray-input shadow-xs py-1 pl-3 focus:outline-none duration-100 hover:border-flex-gray-hover focus:border-flex-gray-hover">
+                        </div>
+                        <button type="submit" class="py-2 bg-flex-green w-full shadow-xs font-medium text-white 
+                        rounded-md duration-200 hover:scale-102">
+                            Começar agora!
+                        </button>
+                    </form>
+                </div>
+
+                <div class="w-6/9 border-t border-flex-gray-input my-6 flex flex-col gap-3 py-5">
+                    <a href="#" class="flex justify-center items-center gap-2 w-full align-center border-2 border-flex-gray-input rounded-md py-2 shadow-xs duration-200 hover:scale-102">
+                        <img src="/image/icons-login/google-svgrepo-com.svg" alt="logo google" class="w-6">
+                        <p class="text-flex-gray-paragraph font-medium">
+                            Entrar com Google
+                        </p>
+                    </a>
+                    <a href="#" class="flex justify-center items-center gap-2 w-full align-center border-2 border-flex-gray-input rounded-md py-2 shadow-xs duration-200 hover:scale-102">
+                        <img src="/image/icons-login/facebook-svgrepo-com.svg" alt="logo google" class="w-6">
+                        <p class="text-flex-gray-paragraph font-medium">
+                            Entrar com Facebook
+                        </p>
+                    </a>
+                    <a href="#" class="flex justify-center items-center gap-2 w-full align-center border-2 border-flex-gray-input rounded-md py-2 shadow-xs duration-200 hover:scale-102">
+                        <img src="/image/icons-login/apple-color-svgrepo-com.svg" alt="logo google" class="w-6">
+                        <p class="text-flex-gray-paragraph font-medium">
+                            Entrar com Apple
+                        </p>
+                    </a>
+                    <a href="#" class="flex justify-center items-center font-medium text-flex-gray-paragraph">Não tem uma conta ? <span class="text-flex-green"> Cadastre-se</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
