@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme{
+    /* colors */
+        /* color project */
+        --color-flex-green: #22C55E; 
+        
+        /* titles */
+        --color-flex-gray-title: #2A3342;
+
+        /* paragraph */
+        --color-flex-gray-paragraph: #556987;
+
+        /* background */
+        --color-flex-gray-bg: #F7F8F9;
+
+
+    /* fonts */
+        --font-jost:"jost";
+}
